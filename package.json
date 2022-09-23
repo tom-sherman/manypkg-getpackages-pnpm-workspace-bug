@@ -1,0 +1,15 @@
+{
+  "name": "manypkg-getpackages-pnpm-workspace-bug",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "email": "the.tomsherman@gmail.com",
+    "name": "Tom Sherman"
+  },
+  "dependencies": {
+    "@manypkg/get-packages": "^1.1.3"
+  }
+}
